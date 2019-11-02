@@ -1,0 +1,30 @@
+section#banner {
+    height: 350px;
+}
+
+.banner-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-image-chim {
+    background-image: url("../assets/img/banner-chim.png");
+}
+
+.banner-image-shop {
+    background-image: url("../assets/img/banner-shop.png");
+}
+
+.banner-image-chai {
+    background-image: url("../assets/img/banner-chai.png");
+}
+
+.banner-box {
+    width: 280px;
+    padding: 20px;
+    margin: auto;
+}
+
+#banner-main {
+    vertical-align: middle;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ywc17-chimshopchai",
+  "version": "1.0.0",
+  "description": "YWC17 Web Programming Homework - Chim Shop Chai website",
+  "main": "index.js",
+  "author": "Kanokphat Jinanarong <kanokphatji@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "navbar": "^2.1.0",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.2"
+  }
+}

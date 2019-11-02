@@ -1,0 +1,25 @@
+@import 'fonts';
+
+#header-navbar {
+    list-style: none;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#header-navbar li {
+    display: inline-block;
+    padding: 14px 15px;
+    font-family: $secondaryFont;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#header-navbar li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}

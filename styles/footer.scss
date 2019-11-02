@@ -1,0 +1,41 @@
+@import 'fonts';
+
+#footer-contact {
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+
+#footer-logo {
+    width: 108px;
+}
+
+.footer-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E6332A;
+    margin-top: 24px;
+}
+
+.footer-description a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#footer-navbar {
+    font-family: $primaryFontBold;
+    color: white;
+    background-color: #213A8F;
+}
+
+#footer-navbar .nav {
+    float: right;
+}
+
+#footer-navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#copyright-text {
+    padding: 0.5rem 1rem 0.5rem 0rem;
+}

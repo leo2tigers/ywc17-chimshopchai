@@ -1,0 +1,24 @@
+@import 'banner';
+@import 'contact';
+@import 'sponsors';
+@import 'navbar';
+@import 'fonts';
+@import 'register';
+@import 'description';
+@import 'footer';
+
+body {
+    font-family: $primaryFont;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.8;
+}
+
+footer {
+    font-size: 14px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}

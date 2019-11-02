@@ -1,0 +1,21 @@
+@import 'fonts';
+
+.description-title {
+    font-family: $primaryFontBold;
+    font-size: 36px;
+    color: #E6332A;
+}
+
+#description-text {
+    font-size: 18px;
+}
+
+#constraint-title {
+    font-family: $primaryFontBold;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#constraint-text {
+    font-size: 18px;
+}

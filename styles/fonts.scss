@@ -1,0 +1,18 @@
+$primaryFont: 'TATSanaSuksa';
+$primaryFontBold: 'TATSanaSuksaBold';
+$secondaryFont: 'TATSanaChon';
+
+@font-face {
+    font-family: $primaryFont;
+    src: url('../assets/fonts/TATSanaSuksa-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: $primaryFontBold;
+    src: url('../assets/fonts/TATSanaChon-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: $secondaryFont;
+    src: url('../assets/fonts/TATSanaChon-Regular.woff2') format('woff2');
+}
