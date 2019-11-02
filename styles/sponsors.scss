@@ -2,6 +2,18 @@ section#sponsors {
     margin: 100px 0px;
 }
 
+@media (max-width: 577px) {
+    section#sponsors {
+        margin: 80px 0px;
+    }
+}
+
 section#sponsors img {
     width: 102px;
+}
+
+@media (max-width: 577px) {
+    section#sponsors img {
+        width: 56px;
+    }
 }

@@ -18,3 +18,10 @@ body {
 footer {
     font-size: 14px;
 }
+
+@media (max-width: 577px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

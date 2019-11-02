@@ -27,6 +27,12 @@
     background-color: #213A8F;
 }
 
+@media (max-width: 577px) {
+    #footer-navbar {
+        padding: 15px 0px;
+    }
+}
+
 #footer-navbar .nav {
     float: right;
 }
@@ -38,4 +44,19 @@
 
 #copyright-text {
     padding: 0.5rem 1rem 0.5rem 0rem;
+}
+
+@media (max-width: 769px) {
+    #copyright-text,
+    #footer-navbar a {
+        font-size: 12px;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media (max-width: 577px) {
+    #copyright-text,
+    #footer-navbar a {
+        padding: 0.5rem 2rem;
+    }
 }
