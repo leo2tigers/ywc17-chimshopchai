@@ -23,3 +23,16 @@ section#regist {
     padding: 10px;
     width: 900px;
 }
+
+@media (max-width: 900px) {
+    #register-btn {
+        width: 100%
+    }
+}
+
+@media (max-width: 769px) {
+    #register-btn {
+        font-size: 18px;
+        width: 100%;
+    }
+}
