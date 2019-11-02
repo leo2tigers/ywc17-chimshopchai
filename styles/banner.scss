@@ -19,12 +19,45 @@ section#banner {
     background-image: url("../assets/img/banner-chai.png");
 }
 
-.banner-box {
+#banner-main {
     width: 280px;
     padding: 20px;
     margin: auto;
+    vertical-align: middle;
 }
 
-#banner-main {
-    vertical-align: middle;
+@media (max-width: 769px) {
+    #banner-main {
+        width: 146px;
+        height: 173px;
+    }
+}
+
+@media (max-width: 577px) {
+    #banner-main {
+        width: 110px;
+        height: 131px;
+        padding: 0;
+    }
+}
+
+#banner-main img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 769px) {
+    .banner-image-chim,
+    .banner-image-shop,
+    .banner-image-chai {
+        height: 242px;
+    }
+}
+
+@media (max-width: 577px) {
+    .banner-image-chim,
+    .banner-image-shop,
+    .banner-image-chai {
+        height: 221px;
+    }
 }
