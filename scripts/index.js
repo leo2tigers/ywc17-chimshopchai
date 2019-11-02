@@ -1,3 +1,4 @@
+import 'bootstrap';
 import { setNavbar } from './navbar';
 import { setDurationText, setDescriptionText, setConstraintText } from './detail'
 
