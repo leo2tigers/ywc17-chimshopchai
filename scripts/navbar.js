@@ -5,7 +5,6 @@
 function setNavbarItem(label, href) {
     const navbarElement = document.getElementById('nav-item-prototype').cloneNode(true);
     const navbarElementLink = navbarElement.querySelector("a");
-    console.dir(navbarElement);
 
     navbarElement.id = "";
     navbarElementLink.innerText = label;

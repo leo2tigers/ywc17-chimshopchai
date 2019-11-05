@@ -1,9 +1,12 @@
+import sanitizeHtml from 'sanitize-html';
+
 /**
  * 
  * @param {string} durationText 
  */
 export function setDurationText(durationText) {
-    document.getElementById('duration').innerHTML = durationText;
+    const sanitizedDurationText = sanitizeHtml(durationText);
+    document.getElementById('duration').innerHTML = sanitizedDurationText;
 }
 
 /**
@@ -11,7 +14,8 @@ export function setDurationText(durationText) {
  * @param {string} detailText 
  */
 export function setDescriptionText(descriptionText) {
-    document.getElementById('description-text').innerHTML = descriptionText;
+    const sanitizedDescriptionText = sanitizeHtml(descriptionText);
+    document.getElementById('description-text').innerHTML = sanitizedDescriptionText;
 }
 
 /**
@@ -19,5 +23,6 @@ export function setDescriptionText(descriptionText) {
  * @param {string} constraintText 
  */
 export function setConstraintText(constraintText) {
-    document.getElementById('constraint-text').innerHTML = constraintText;
+    const sanitizedConstraintText = sanitizeHtml(constraintText);
+    document.getElementById('constraint-text').innerHTML = sanitizedConstraintText;
 }

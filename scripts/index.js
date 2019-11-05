@@ -14,10 +14,3 @@ fetch(apiEndpoint).then(
         setConstraintText(jsondata.condition);
     }
 );
-// async function getData() {
-//     const data = await fetch(apiEndpoint);
-//     const jsondata = await data.json();
-//     console.log(jsondata);
-// }
-
-// getData();
